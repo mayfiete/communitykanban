@@ -1,32 +1,34 @@
 body {
-    font-family:"Open Sans", sans-serif; 
+    font-family: 'Amatic SC', cursive;
 }
 
-h1, h2, h3 {
-    font-family: "Lobster", cursive
+h1,
+h2,
+h3 {
+    font-family: "Amatic SC", cursive
 }
 
-h2{
-    color:#3046c5;
+h2 {
+    color: #30c598;
 }
 
 header h2 {
-    color: #CEC8FF
+    color: #c8ffd1
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#c8ffcb, white);
     padding: 20px 0;
 }
 
 .jumbotron {
-    padding: 30px; 
-    background-image: linear-gradient(to right, #5637DD, #3046c5, #60106B);
+    padding: 30px;
+    background-image: linear-gradient(to right, #b8c1c9, #3046c5, #60106B);
     color: white;
 }
 
 .row-content {
-    padding: 50px 0; 
-    border-bottom: 1px ridge; 
-    min-height: 200px; 
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
 }
