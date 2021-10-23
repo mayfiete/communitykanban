@@ -4,16 +4,22 @@ body {
 
 h1 {
   color: #e0f147;
-  font-family: "Architects_Daughter", cursive;
+  font-family: "Helvetica", cursive;
 }
 
 h2,
 h3 {
-  font-family: "Verdana", cursive;
+  font-family: "Helvetica", cursive;
 }
 
 h2 {
   color: #aed9f5;
+}
+
+h4 {
+  color: #1547eb;
+  font-size: x-large;
+  font-family: Apple Chancery, cursive;
 }
 
 h5 {
@@ -34,7 +40,7 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #aed9f5, #8995da, #b042be);
   color: white;
 }
 
@@ -70,13 +76,13 @@ a:hover {
 }
 
 .card {
-  margin: 0 auto;
+  margin: 2 auto;
   /* Added */
   float: none;
   /* Added */
   margin-bottom: 10px;
   /* Added */
-  background-color: rgb(216, 216, 231);
+  background-color: rgb(238, 238, 245);
   color: rgb(17, 11, 11);
 }
 
