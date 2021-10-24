@@ -40,7 +40,7 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #aed9f5, #8995da, #b042be);
+  background-image: linear-gradient(to right, #8bc9f1, #8995da, #b042be);
   color: white;
 }
 
@@ -265,4 +265,10 @@ body {
   left: -153px;
   top: 63px;
   z-index: 9;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
