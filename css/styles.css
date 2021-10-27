@@ -272,3 +272,9 @@ body {
   top: 8px;
   left: 16px;
 }
+
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
