@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="css/styles.css" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Community Kanban</title>
 </head>
 
@@ -97,8 +100,14 @@
     </div>
 
     <div>
-        <h1 class="pb-5" style="color:blue">
-            The process is simple!
+        <br>
+        </br>
+    </div>
+
+    <div>
+        <h1 class="pl-4" ;
+            style="color:white; background-color: rgb(145, 0, 145); font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+            Process for Nonprofits
 
         </h1>
     </div>
@@ -106,17 +115,13 @@
 
     <!------ Include the above in your HEAD tag ---------->
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <section class="our-blog p-0 m-0 bg-silver">
         <div class="container work-process  pb-5 pt-5">
-            <div class="title mb-5 text-center">
-                <h3 style="color:rgb(0, 47, 255)">Process for our <span class="site-color">
-                    </span>Nonprofits</h3>
-            </div>
+
             <!-- ============ step 1 =========== -->
-            <div class=" row">
+            <div class="row">
                 <div class="col-md-5">
                     <div class="process-box process-left" data-aos="fade-right" data-aos-duration="1000">
                         <div class="row">
@@ -265,11 +270,57 @@
             <!-- ============ -->
         </div>
     </section>
+
+
     <script>
         AOS.init();
     </script>
 
+    <div class="container-fluid">
 
+        <div class="card mx-auto" style="width: 50rem;">
+            <div class="card-body pt-5" style="background-color: rgb(217, 245, 247);">
+
+                <form>
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control" />
+                        <label class="form-label" for="form4Example1">Nonprofit</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control" />
+                        <label class="form-label" for="form4Example1">Contact Name</label>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form4Example2" class="form-control" />
+                        <label class="form-label" for="form4Example2">Email address</label>
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                        <label class="form-label" for="form4Example3">What are you working on?</label>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-left mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                        <label class="form-check-label" for="form4Example4">
+                            Send me a copy of this message
+                        </label>
+                    </div>
+
+                    <!-- Submit button -->
+
+                </form>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
     <footer class="site-footer">
