@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Community Kanban</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="col">
+                <h1>Community Kanban</h1>
+                <h3>Find us at the intersection of smart & heart!</h3>
+            </div>
+        </div>
+    </header>
+
+    <nav class=" navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ckNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="ckNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg">Home</i></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i
+                                class="fa fa-info fa-lg">About</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="nonprofits-process.html"><i class="fa fa-list fa-lg">
+                                Nonprofits</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="technologists-process.html"><i
+                                class="fa fa-list fa-lg">
+                                Technologists</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="support-wiki.html"><i class="fa fa-list fa-lg">
+                                Wiki</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg">Contact</i></a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        </br>
+    </div>
+
+    <div>
+        <h1 class="pl-4" ;
+            style="color:white; background-color: rgb(0, 51, 145); font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+            Process for Nonprofits
+
+        </h1>
+    </div>
+
+
+    <!------ Include the above in your HEAD tag ---------->
+
+
+
+    <section class="our-blog p-0 m-0 bg-silver">
+        <div class="container work-process  pb-5 pt-5">
+
+            <!-- ============ step 1 =========== -->
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="process-box process-left" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="process-step">
+                                    <p class="m-0 p-0">Step</p>
+                                    <h2 class="m-0 p-0">01</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <h5>Let's meet!</h5>
+                                <p>
+                                    <large> Create an account profile.
+                                    </large>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-line-l"></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <div class="process-point-right"></div>
+                </div>
+            </div>
+            <!-- ============ step 2 =========== -->
+            <div class="row">
+
+                <div class="col-md-5">
+                    <div class="process-point-left"></div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <div class="process-box process-right" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="process-step">
+                                    <p class="m-0 p-0">Step</p>
+                                    <h2 class="m-0 p-0">02</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <h5>What are you working on?</h5>
+                                <p>
+                                    <large> Tell us about your
+                                        organization. We are deeply interested in understanding
+                                        what makes you tick, and what you are doing to help
+                                        the community.
+                                    </large>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-line-r"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ============ step 3 =========== -->
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="process-box process-left" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="process-step">
+                                    <p class="m-0 p-0">Step</p>
+                                    <h2 class="m-0 p-0">03</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <h5>Create a Support Request</h5>
+                                <p>
+                                    <large>Go to the Nonprofit Support Page and
+                                        create a support request. Our Community Kanban Project Manager
+                                        will match you with the best technologist to help fulfill
+                                        your request.
+                                    </large>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-line-l"></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <div class="process-point-right"></div>
+                </div>
+            </div>
+            <!-- ============ step 4 =========== -->
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="process-point-left"></div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <div class="process-box process-right" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="process-step">
+                                    <p class="m-0 p-0">Step</p>
+                                    <h2 class="m-0 p-0">04</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <h5>Provide guidance as we work through your project.</h5>
+                                <p>
+                                    <large>The Community Kanban Project Manager
+                                        will make sure you receive the best possible solution.
+                                        You focus on your community. We focus on your technical needs.
+                                        </larg>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-line-r"></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- ============ step 3 =========== -->
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="process-box process-left" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="process-step">
+                                    <p class="m-0 p-0">Step</p>
+                                    <h2 class="m-0 p-0">05</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <h5>Tell your friends about us!</h5>
+                                <p>
+                                    <large>Our goal is to connect technologists and
+                                        nonprofits. There is a lot of work to do. Technologist
+                                        love creating.
+                                    </large>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-line-l"></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+
+            </div>
+            <!-- ============ -->
+        </div>
+    </section>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <div class="container-fluid">
+        <div class="row row-content">
+            <div class="col-10  mx-auto">
+                <h2 style="color: blue; font-family: cursive;">What are you working on?</h2>
+
+            </div>
+            <div class="col-md-10 mx-auto mt-3">
+                <form>
+                    <div class="form-group row">
+                        <label for="nonprofit" class="col-md-2 col-form-label">Nonprofit Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="nonprofit" name="nonprofit"
+                                placeholder="Nonprofit Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="contactName" class="col-md-2 col-form-label">Contact Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="contactName" name="contactName"
+                                placeholder="Contact Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                                placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            May we contact you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios"
+                                    value="yes" />
+                                <label for="contactYes" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios"
+                                    value="no" />
+                                <label for="contactNo" class="form-check-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="site-footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5" text-center>
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                        1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:terry@communitykanban.org"><i
+                            class="fa fa-envelope-o"></i> terry@communitykanban.org</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
