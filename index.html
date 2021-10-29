@@ -160,28 +160,35 @@
     <div class="container-fluid mx-auto" style="background-color: #d6dbe9; color: #ffffff;">
         <div class="row row-content align-items-center">
             <div class="col-md-8 mx-auto">
-                <div class="col">
-                    <h3 class="text-sm-left" style="font-family: 'Architects Daughter', cursive; color:rgb(80, 0, 0)">
-                        What do we
-                        do?</h3>
-                    <p class="text-sm-left pb-4" style="color:black">Community Kanban is a marketplace
-                        that matches
-                        nonprofits that
-                        need technical support with community-oriented technologist. Nonprofits get the
-                        support they
-                        need. Technologist get real-world experience.
-                    </p>
-                    <blockquote class="quote-card">
-                        <p class="text-muted">As you grow older, you will discover that you have two
-                            hands — one for
-                            helping yourself,
-                            the other for helping others.
-                        </p>
-                        <cite>Audrey Hepburn</cite>
-                    </blockquote>
-                </div>
 
+                <h3 class="text-sm-left" style="font-family: 'Architects Daughter', cursive; color:rgb(80, 0, 0)">
+                    What do we
+                    do?</h3>
+                <p class="text-sm-left pb-1" style="color:black">Community Kanban is a marketplace
+                    that matches
+                    nonprofits that
+                    need technical support with community-oriented technologist. Nonprofits get the
+                    support they
+                    need. Technologist get real-world experience.
+                </p>
+                <blockquote class="card-body pr-20">
+                    <img class="d-block w-100 pb-4" src="img/dancing-montage.jpg" alt="Dancing" />
+                    <h5 class="text-muted col-8" style="font-family: cursive; text-align: left;flood-color: gold;">
+                        As you
+                        grow older,
+                        you will discover that
+                        you have two
+                        hands — one for
+                        helping yourself,
+                        the other for helping others.
+                        <br>
+                        </br>
+                        Audrey Hepburn
+                    </h5>
+
+                </blockquote>
             </div>
+
         </div>
     </div>
 
@@ -270,24 +277,6 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script>
-        $(function () {
-            $(".carousel").carousel({
-                interval: 2000
-            });
-            $("#carouselButton").click(function () {
-                if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                    $(".carousel").carousel("pause");
-                    $("#carouselButton").children("i").removeClass("fa-pause");
-                    $("#carouselButton").children("i").addClass("fa-play");
-                } else {
-                    $(".carousel").carousel("cycle");
-                    $("#carouselButton").children("i").removeClass("fa-play");
-                    $("#carouselButton").children("i").addClass("fa-pause");
-                }
-            });
-        });
-    </script>
 
 </body>
 
