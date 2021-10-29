@@ -33,7 +33,7 @@ header h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#250ddd, rgb(209, 209, 216));
   padding: 20px 0;
 }
 
